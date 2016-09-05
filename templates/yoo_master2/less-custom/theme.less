@@ -1,0 +1,35 @@
+@import "../less/theme.less";
+
+// Anpassungen Plakomm / Andromeda - piDome
+// Platzer Kommunikation GmbH, 2016
+
+
+// Variables
+
+@navbarCollapseWidth: 767px;
+@pidome-blau: #006eac;
+@pidome-nav-original: #eeeeee;
+
+
+// Styles
+
+.uk-link {
+    color: @pidome-blau;
+}
+
+.uk-navbar {
+    // background: #eeeeee;
+    background: @pidome-blau;
+    border-radius: 3px;
+    @media (max-width: @navbarCollapseWidth) {
+        background: @pidome-nav-original;
+    }
+}
+
+.uk-navbar-nav > li > a {
+    color: #ffffff;
+}
+
+h1, h2, h3, h4 {
+  color: @pidome-blau;
+}
