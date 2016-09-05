@@ -174,7 +174,7 @@
     var scroller = "<?php echo $scrollTo; ?>"
     if(scroller != ""){
       jQuery(window).load(function(){
-        var aTag = jQuery("div[id$='<?php echo $scrollTo; ?>']");
+        var aTag = jQuery("div[id$='" + scroller + "']");
         //Positionsoffset ausgleichen
         var theOffset = -15;
         jQuery('html,body').animate({scrollTop: aTag.offset().top + theOffset}, 1500);
