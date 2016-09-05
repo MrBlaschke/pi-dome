@@ -10,7 +10,6 @@
   // get theme configuration
   include($this['path']->path('layouts:theme.config.php'));
 
-
   // Custom function to trigger soft-scrolls to anchor-tags
   // Frank Price, 2016
   //
@@ -28,6 +27,7 @@
     }
   }
 ?>
+
 <!DOCTYPE HTML>
 <html lang="<?php echo $this['config']->get('language'); ?>" dir="<?php echo $this['config']->get('direction'); ?>"  data-config='<?php echo $this['config']->get('body_config','{}'); ?>'>
 
