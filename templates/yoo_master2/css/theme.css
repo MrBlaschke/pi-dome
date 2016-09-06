@@ -9825,6 +9825,11 @@ html {
 .uk-link {
   color: #006eac;
 }
+.list-expression {
+  text-indent: -0.6em;
+  margin-left: 15px;
+  padding-right: 20px;
+}
 .uk-navbar {
   background: #006eac;
   border-radius: 3px;

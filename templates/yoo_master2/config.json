@@ -279,6 +279,21 @@
 				"medium": "1",
 				"small": "1"
 			}
+		},
+		"129": {
+			"class": "",
+			"panel": "uk-panel",
+			"title_size": "uk-panel-title",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "1",
+				"medium": "1",
+				"small": "1"
+			}
 		}
 	},
 	"menus": {
@@ -367,6 +382,12 @@
 			"subtitle": ""
 		},
 		"228": {
+			"columns": "1",
+			"columnwidth": "",
+			"icon": "",
+			"subtitle": ""
+		},
+		"231": {
 			"columns": "1",
 			"columnwidth": "",
 			"icon": "",
