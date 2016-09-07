@@ -36,6 +36,7 @@
 </head>
 
 <body class="<?php echo $this['config']->get('body_classes'); ?>">
+  <?php include($this['path']->path('layouts:analyticstracking.php')); ?>
 	<div class="uk-container uk-container-center">
 
 		<?php if ($this['widgets']->count('toolbar-l + toolbar-r')) : ?>
